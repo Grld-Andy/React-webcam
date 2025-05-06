@@ -52,7 +52,7 @@ function App() {
         <video ref={videoRef}></video>
         <button onClick={takePhoto}>SNAP</button>
       </div>
-      <div className={"result" + (hasPhoto ? "hasPhoto" : "")}>
+      <div className={"result " + (hasPhoto ? "hasPhoto" : "")}>
         <canvas ref={photoRef}></canvas>
         <button onClick={closePhoto}>CLOSE</button>
       </div>
